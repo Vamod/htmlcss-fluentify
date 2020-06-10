@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    /* background-color: orange; */
+    height: 100%;
+    border: 5px solid white;
+}
+
+.blu {
+    background-color: #0c325a;
+
+    height: 400px;
+}
+
+.background {
+    background-image: url('../img/oldman.png');
+    background-size: cover;
+}
+
+nav {
+    height: 70px;
+    line-height: 70px;
+    text-transform:uppercase;
+    font-size: 11px;
+
+}
+
+#logo-img img {
+    float: left;
+    padding: 11px 0;
+    margin-right: 30px;
+}
+
+.menu-bar {
+    float: left;
+
+}
+
+.menu-bar li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.right-buttons {
+    float: right;
+}
+
+.right-buttons span, .right-buttons button {
+    padding: 0 5px;
+}
+
+.banner {
+    height: 330px;
+    position: relative;
+
+}
+
+.testo-banner {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.banner-button button {
+    margin-top: 18px;
+}
+
+
+
+.grigio {
+    background-color: #d3d3d3;
+    text-align: center;
+    /* height:100px; */
+    padding: 40px;
+}
+
+.bianco {
+    background-color: white;
+    height: 400px;
+}
+
+.box {
+    width: 33.3333%;
+    height: 100%;
+    float: left;
+    border: 1px solid white;
+}
