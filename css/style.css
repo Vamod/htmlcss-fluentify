@@ -15,10 +15,7 @@
     width: 70%;
     max-width: 1200px;
     margin: 0 auto;
-
-    /* background-color: orange; */
     height: 100%;
-    border: 5px solid white;
 }
 
 .blu {
@@ -37,6 +34,7 @@ nav {
     line-height: 70px;
     text-transform:uppercase;
     font-size: 11px;
+    color: white;
 
 }
 
@@ -87,18 +85,46 @@ nav {
 .grigio {
     background-color: #d3d3d3;
     text-align: center;
-    /* height:100px; */
     padding: 40px;
+}
+
+.main-middle-text {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.low-middle-text {
+    color: #808080;
+    font-size: 20px;
 }
 
 .bianco {
     background-color: white;
-    height: 400px;
 }
 
 .box {
     width: 33.3333%;
     height: 100%;
     float: left;
-    border: 1px solid white;
+    text-align: center;
+}
+
+.box img {
+    height: 100px;
+}
+
+.title-box {
+    color: #7cbb02;
+}
+
+.box p {
+    color: #808080;
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: #808080;
+    display: inline-block;
 }
