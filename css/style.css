@@ -72,6 +72,7 @@ nav {
 
 #button-top-right {
     background-color: #7cbb02;
+    border: #7cbb02;
     color: white;
     padding: 6px 10px;
     border-radius: 6px;
@@ -97,6 +98,7 @@ nav {
 .banner-button button {
     margin-top: 18px;
     background-color: #7cbb02;
+    border: #7cbb02;
     color: white;
     font-size: 18px;
     padding: 6px 10px;
@@ -144,7 +146,8 @@ nav {
 
 .title-box {
     color: #7cbb02;
-    font-size: 24px;
+    font-size: 22px;
+    height: 59.2px;
 }
 
 .line {
@@ -159,4 +162,5 @@ nav {
     color: #808080;
     margin-top: 10px;
     line-height: 25px;
+    padding-left: 0 4px;
 }
