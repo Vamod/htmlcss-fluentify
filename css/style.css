@@ -20,8 +20,6 @@
 
 .blu {
     background-color: #0c325a;
-
-    height: 400px;
 }
 
 .background {
@@ -64,7 +62,7 @@ nav {
 
 #login {
     border: 2px solid white;
-    background-color: #69a1d8;
+    background-color: transparent;
     color: white;
     padding: 6px 10px;
     border-radius: 6px;
@@ -146,7 +144,7 @@ nav {
 
 .title-box {
     color: #7cbb02;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .line {
